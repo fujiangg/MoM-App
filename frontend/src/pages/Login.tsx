@@ -52,7 +52,7 @@ export default function Login() {
                     <div className="flex flex-col gap-2">
                         <label className="text-sm font-medium text-muted">Username</label>
                         <div className="relative">
-                            <User size={18} className="absolute left-3 top-3 text-muted" />
+                            <User size={18} className="absolute input-icon" />
                             <input
                                 type="text"
                                 className="input"
@@ -68,7 +68,7 @@ export default function Login() {
                     <div className="flex flex-col gap-2">
                         <label className="text-sm font-medium text-muted">Password</label>
                         <div className="relative">
-                            <KeyRound size={18} className="absolute left-3 top-3 text-muted" />
+                            <KeyRound size={18} className="absolute input-icon" />
                             <input
                                 type="password"
                                 className="input"
