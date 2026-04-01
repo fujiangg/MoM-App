@@ -82,9 +82,9 @@ export default function Dashboard() {
 
     return (
         <div className="container" style={{ paddingTop: '2rem' }}>
-            <header className="flex justify-between items-center mb-8 glass-panel p-4 rounded-xl">
+            <header className="dashboard-header flex justify-between items-center mb-8">
                 <div className="flex items-center gap-4">
-                    <div className="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center text-primary border border-primary/20">
+                    <div className="avatar-circle">
                         {username?.charAt(0).toUpperCase()}
                     </div>
                     <div>

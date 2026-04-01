@@ -63,12 +63,39 @@ body {
   animation: fadeIn 0.4s ease-out forwards;
 }
 
+.avatar-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: var(--primary);
+  border: 2px solid var(--primary);
+
+  background: rgba(99, 102, 241, 0.1); /* glow tipis biar lebih modern */
+  font-weight: 600;
+}
+
 /* Utility Classes similar to Tailwind but vanilla */
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
   width: 100%;
+}
+
+.dashboard-header {
+  width: 100%;
+  max-width: 1400px;     /* ini yang bikin lebih panjang ke kanan kiri */
+  margin: 0 auto;
+  padding: 1rem 2rem;    /* isi tetap tidak mepet */
+  border-radius: var(--radius-lg);
+  background: rgba(30, 41, 59, 0.7);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--border);
 }
 
 .flex { display: flex; }
