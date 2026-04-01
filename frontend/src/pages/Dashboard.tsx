@@ -148,8 +148,8 @@ export default function Dashboard() {
             </div>
 
             {showModal && (
-                <div className="fixed inset-0 bg-black/50 backdrop-blur-sm flex items-center justify-center p-4 z-50 animate-fade-in">
-                    <div className="card w-full max-w-lg glass-panel shadow-2xl">
+                <div className="modal-overlay">
+                    <div className="modal-box">
                         <div className="flex justify-between items-center mb-6">
                             <h3 className="text-xl font-bold">{editingMom ? 'Edit MoM' : 'Create New MoM'}</h3>
                             <button
